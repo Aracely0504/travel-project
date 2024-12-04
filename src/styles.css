@@ -71,14 +71,13 @@ footer {
   padding: 100px 0;
 }
 footer h3 {
-  font-family: "poppins", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
 }
 footer p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   opacity: 0.7;
   margin-right: 20px;
