@@ -16,6 +16,9 @@ body {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.img-responsive {
+  max-width: 100%;
+}
 section {
   max-width: 1200px;
   margin: 0 auto;
@@ -138,5 +141,12 @@ footer a {
   }
   header h3 {
     font-size: 15px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+  section {
+    padding: 30px;
   }
 }
