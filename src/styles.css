@@ -3,7 +3,7 @@ body {
   background-color: #272044;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 .grid {
@@ -19,17 +19,23 @@ body {
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .card {
   background: white;
   margin: 30px;
+}
+.card-header.grid {
+  grid-gap: 0;
 }
 .card-body {
   padding: 30px;
 }
 
 .img-responsive {
-  max-width: 100%;
-  display: block;
+  width: 100%;
 }
 .text-center {
   text-align: center;
@@ -193,5 +199,12 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
